@@ -1,0 +1,16 @@
+[package]
+name = "nametocolor"
+version = "0.1.0"
+authors = ["Graham Fielding <grahamfielding08@gmail.com>"]
+license = "MIT"
+description = "Turns a name into an RGB color"
+readme = "README.md"
+homepage = "https://github.com/mangopanda455/nametocolor"
+repository = "https://github.com/mangopanda455/nametocolor"
+keywords = ["cli"]
+categories = ["command-line-utilities"]
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+colored = "2.1.0"
